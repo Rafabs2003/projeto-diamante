@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
+     <head>
+	     <title></title>
 
-	<script type="text/javascript">
+	             <script type="text/javascript">
 
-	let aluno = { 
-		nome: prompt("Digite seu nome:"),
-		nota1: Number(prompt("Digite a sua primeira nota:")),
-		nota2: Number(prompt("Digite a sua segunta nota:"))
-	};
+	                     let aluno = { 
+		                               nome: prompt("Digite seu nome:"),
+		                               nota1: Number(prompt("Digite a sua primeira nota:")),
+		                               nota2: Number(prompt("Digite a sua segunta nota:"))
+	                                 };
 
-	let resultado_soma= (aluno.nota1 + aluno.nota2);
-	let media= resultado_soma/2;
-	confirm( aluno.nome + "sua media foi:" + media);
+	                     let resultado_soma= (aluno.nota1 + aluno.nota2);
+	                     
+	                     let media= resultado_soma/2;
+	                           
+	                     confirm( aluno.nome + "sua media foi:" + media);
 
-	if(media >=7){console.log("aprovado")};
+	                 if(media >=7){console.log("aprovado")};
+		
+	                 else if(media >=5 && media < 7){console.log('recuperação')};
+
+	                 else{console.log("reprovado")};
 
 
+                 </script>
 
-</script>
-
-</head>
-<body>
-
-</body>
+     </head>
+  <body>
+     </body>
 </html>
